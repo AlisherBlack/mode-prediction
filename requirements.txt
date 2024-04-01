@@ -1,0 +1,8 @@
+torch
+numpy
+tqdm
+matplotlib
+scikit-learn
+pandas
+lion-pytorch
+wldhx.yadisk-direct
