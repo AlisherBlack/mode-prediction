@@ -22,7 +22,7 @@ python3 -m pip install --user virtualenv
 ```bash
 python3.11 -m venv <venv_name>
 ```
-> If python3.11 is not recognized, but python3 points to Python 3.7:
+> If python3.11 is not recognized, but python3 points to Python 3.11:
 > ```bash
 > python3 -m venv <venv_name>
 > ```
@@ -62,11 +62,11 @@ The following script will train the model, create a `./experiment` directory in 
 python train_model.py
 ```
 
-You can skip train step and download the test model to the `./experiments` directory using the following command:
+You can skip train step and download the test model to the `./experiment` directory using the following command:
 
 ```bash
-mkdir ./experiments
-curl -L $(yadisk-direct https://disk.yandex.ru/d/S5HvchhPkvUd6g) -o ./experiments/model.pth
+mkdir ./experiment
+curl -L $(yadisk-direct https://disk.yandex.ru/d/S5HvchhPkvUd6g) -o ./experiment/model.pth
 ```
 
 ## Visualize prediction

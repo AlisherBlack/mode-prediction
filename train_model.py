@@ -365,7 +365,7 @@ def plot_loss(train_loss, valid_loss, path_to_save):
 def main():
     """main"""
     batch_size = 32
-    num_epochs = 20
+    num_epochs = 20000
     workers = 4
     experiment_dir = "./experiment"
     path_to_data = "./input/sweep"
